@@ -27,7 +27,8 @@ at around row 62
         Not always correct lyric and there is no specific control, this is a trial module with much work needed before publish
         
         To have;
-        1. Correct lyrics - from other lyric sites
-        2. set time code to scroll with the music
+        1. Correct lyrics - maybe use a selection of lyric sites
+        2. set time code to scroll lyrics with the music
         3. format the DOM better
         4. option to disable lyrics, or perhaps set for another screen!
+	5. intergrate other media player notifications

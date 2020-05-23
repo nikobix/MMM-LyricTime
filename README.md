@@ -2,11 +2,11 @@
 Display song Lyrics depending on whats playing
 Using the GoogleCast module from FerFerga with some small modifications
 
-Modification to te GoogleCast MMM-GoogleCast.js file to inclue a 
+	Modification to te GoogleCast MMM-GoogleCast.js file to inclue a 
 
-this.sendNotification('GoogleCast', payload);
+	this.sendNotification('GoogleCast', payload);
 
-at around row 62  
+	at around row 62  
 	}
 		else if (payload.type == "mediaStatus")
 		{	this.sendNotification('GoogleCast', payload); //<------------------------------------
@@ -20,11 +20,11 @@ at around row 62
 			{
 				this.media = false;
         
-        LyricTime will pick up this notification from the first transmission and search for lyrics from 
+LyricTime will pick up this notification from the first transmission and search for lyrics from 
         
-        http://www.chartlyrics.com/api.aspx
+http://www.chartlyrics.com/api.aspx
         
-        Not always correct lyric and there is no specific control, this is a trial module with much work needed before publish
+Not always correct lyric and there is no specific control, this is a trial module with much work needed before publish
         
         To have;
         1. Correct lyrics - maybe use a selection of lyric sites
